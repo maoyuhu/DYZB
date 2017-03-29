@@ -52,7 +52,7 @@
 		90DB0F491E8B5A69006E1576 /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
-				90DB0F5C1E8B66BE006E1576 /* Classes */,
+				90DB0F631E8B68F7006E1576 /* Classes */,
 				90DB0F4A1E8B5A69006E1576 /* AppDelegate.swift */,
 				90DB0F4E1E8B5A69006E1576 /* Main.storyboard */,
 				90DB0F511E8B5A69006E1576 /* Assets.xcassets */,
@@ -62,55 +62,55 @@
 			path = DouYuZB;
 			sourceTree = "<group>";
 		};
-		90DB0F5C1E8B66BE006E1576 /* Classes */ = {
+		90DB0F631E8B68F7006E1576 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				90DB0F601E8B66BE006E1576 /* Main */,
-				90DB0F5E1E8B66BE006E1576 /* Home */,
-				90DB0F5F1E8B66BE006E1576 /* Live */,
-				90DB0F5D1E8B66BE006E1576 /* Follow */,
-				90DB0F611E8B66BE006E1576 /* Profile */,
-				90DB0F621E8B66BE006E1576 /* Tools */,
+				90DB0F641E8B68F7006E1576 /* Follow */,
+				90DB0F651E8B68F7006E1576 /* Home */,
+				90DB0F661E8B68F7006E1576 /* Live */,
+				90DB0F671E8B68F7006E1576 /* Main */,
+				90DB0F681E8B68F7006E1576 /* Profile */,
+				90DB0F691E8B68F7006E1576 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		90DB0F5D1E8B66BE006E1576 /* Follow */ = {
+		90DB0F641E8B68F7006E1576 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		90DB0F5E1E8B66BE006E1576 /* Home */ = {
+		90DB0F651E8B68F7006E1576 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		90DB0F5F1E8B66BE006E1576 /* Live */ = {
+		90DB0F661E8B68F7006E1576 /* Live */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		90DB0F601E8B66BE006E1576 /* Main */ = {
+		90DB0F671E8B68F7006E1576 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		90DB0F611E8B66BE006E1576 /* Profile */ = {
+		90DB0F681E8B68F7006E1576 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		90DB0F621E8B66BE006E1576 /* Tools */ = {
+		90DB0F691E8B68F7006E1576 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
