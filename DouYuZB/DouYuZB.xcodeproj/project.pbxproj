@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		90DB0F4B1E8B5A69006E1576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB0F4A1E8B5A69006E1576 /* AppDelegate.swift */; };
-		90DB0F4D1E8B5A69006E1576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB0F4C1E8B5A69006E1576 /* ViewController.swift */; };
 		90DB0F501E8B5A69006E1576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DB0F4E1E8B5A69006E1576 /* Main.storyboard */; };
 		90DB0F521E8B5A69006E1576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DB0F511E8B5A69006E1576 /* Assets.xcassets */; };
 		90DB0F551E8B5A69006E1576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DB0F531E8B5A69006E1576 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		90DB0F471E8B5A69006E1576 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DB0F4A1E8B5A69006E1576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90DB0F4C1E8B5A69006E1576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90DB0F4F1E8B5A69006E1576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90DB0F511E8B5A69006E1576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90DB0F541E8B5A69006E1576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		90DB0F491E8B5A69006E1576 /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				90DB0F5C1E8B66BE006E1576 /* Classes */,
 				90DB0F4A1E8B5A69006E1576 /* AppDelegate.swift */,
-				90DB0F4C1E8B5A69006E1576 /* ViewController.swift */,
 				90DB0F4E1E8B5A69006E1576 /* Main.storyboard */,
 				90DB0F511E8B5A69006E1576 /* Assets.xcassets */,
 				90DB0F531E8B5A69006E1576 /* LaunchScreen.storyboard */,
 				90DB0F561E8B5A69006E1576 /* Info.plist */,
 			);
 			path = DouYuZB;
+			sourceTree = "<group>";
+		};
+		90DB0F5C1E8B66BE006E1576 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90DB0F601E8B66BE006E1576 /* Main */,
+				90DB0F5E1E8B66BE006E1576 /* Home */,
+				90DB0F5F1E8B66BE006E1576 /* Live */,
+				90DB0F5D1E8B66BE006E1576 /* Follow */,
+				90DB0F611E8B66BE006E1576 /* Profile */,
+				90DB0F621E8B66BE006E1576 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		90DB0F5D1E8B66BE006E1576 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		90DB0F5E1E8B66BE006E1576 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90DB0F5F1E8B66BE006E1576 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		90DB0F601E8B66BE006E1576 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90DB0F611E8B66BE006E1576 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		90DB0F621E8B66BE006E1576 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +149,8 @@
 				TargetAttributes = {
 					90DB0F461E8B5A69006E1576 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = T4C6727V6L;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -136,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DB0F4D1E8B5A69006E1576 /* ViewController.swift in Sources */,
 				90DB0F4B1E8B5A69006E1576 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,10 +311,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = T4C6727V6L;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FashionShow.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00ce0a01-549f-4580-8266-a287d59fa8f6";
+				PROVISIONING_PROFILE_SPECIFIER = developerForRuiShiShang;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,7 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FashionShow.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +358,7 @@
 				90DB0F5B1E8B5A69006E1576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
